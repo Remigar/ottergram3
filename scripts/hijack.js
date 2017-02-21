@@ -17,6 +17,7 @@ function getAnchorArray() {
 }
 
 function addAnchClickHandler( anch ) {
+  'use strict';
   anch.addEventListener('click', function ( event ) {
     event.preventDefault();
   })
